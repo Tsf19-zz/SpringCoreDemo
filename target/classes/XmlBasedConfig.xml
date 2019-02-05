@@ -7,11 +7,11 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-<!-- <bean id="vehicle" class="com.tousif.XmlConfigDemo.Bike"> -->
-	<bean id="vehicle" class="com.tousif.XmlConfigDemo.Car">	
+<!-- <bean id="vehicle" class="com.tousif.XmlConfigDemo1.Bike"> -->
+	<bean id="vehicle" class="com.tousif.XmlConfigDemo1.Car">	
 	</bean>
 	
-	<bean id="tyre" class="com.tousif.XmlConfigDemo.Tyre">
+	<bean id="tyre" class="com.tousif.XmlConfigDemo1.Tyre">
 
 <!-- 	
 		<property name="brand" value="MRF"></property>	SETTER_INJECTION

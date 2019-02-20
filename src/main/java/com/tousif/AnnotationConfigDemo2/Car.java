@@ -10,14 +10,16 @@ public class Car implements Vehicle {
 	private Tyre tyre;
 	
 	public Tyre getTyre() {
+		System.out.println("Inside getTyre() in Car.class");
 		return tyre;
 	}
 	public void setTyre(Tyre tyre) {
+		System.out.println("Inside setTyre() in Car.class");
 		this.tyre = tyre;
 	}
 
 	public void drive() {
-		System.out.println("Inside Car");
+		System.out.println("Inside drive() in Car.class");
 	}
 	
 }

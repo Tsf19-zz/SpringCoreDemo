@@ -37,7 +37,7 @@ public class App {
 		
 		
 		Tyre tyre = (Tyre)context.getBean("tyre"); 
-		System.out.println("Vale of tyre inside App: " + tyre);
+		System.out.println("Value of tyre inside App: " + tyre);
 	}
 
 }

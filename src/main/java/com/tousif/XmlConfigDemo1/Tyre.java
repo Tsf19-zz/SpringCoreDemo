@@ -1,8 +1,6 @@
 package com.tousif.XmlConfigDemo1;
 
-import org.springframework.stereotype.Component;
 
-@Component
 public class Tyre {
 	
 	public Tyre(String brand) {		//CONSTRUCTOR_INJECTION

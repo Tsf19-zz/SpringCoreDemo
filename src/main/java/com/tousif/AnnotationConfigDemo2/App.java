@@ -17,7 +17,7 @@ public class App {
 		
 		
 		Tyre tyre = (Tyre)context.getBean("tyre");
-		System.out.println("(I'm inside App) Vale of tyre : " + tyre);
+		System.out.println("Vale of tyre Inside App.class: " + tyre);
 		
 		
 	}

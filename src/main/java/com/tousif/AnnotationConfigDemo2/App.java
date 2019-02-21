@@ -3,10 +3,20 @@ package com.tousif.AnnotationConfigDemo2;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+/**
+ * @author Tousif
+ *
+ */
 public class App {
 
+	/**
+	 * Annotation injection is performed before XML injection. 
+	 * Thus, the latter configuration will override the former for properties wired through both approaches.
+	 */
+	 
 	public static void main(String[] args) {
 
+		
 		//1.
 		ApplicationContext context = new ClassPathXmlApplicationContext("AnnotationBasedConfig.xml");
 				

@@ -5,7 +5,7 @@
 	<artifactId>SpringDemo</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>SpringDemo Maven Webapp</name>
+	<name>SpringCoreDemo Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<dependencies>
 	
@@ -31,6 +31,6 @@
 
 	</dependencies>
 	<build>
-		<finalName>SpringDemo</finalName>
+		<finalName>SpringCoreDemo</finalName>
 	</build>
 </project>
